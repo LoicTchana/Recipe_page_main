@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Ce fichier contient les styles CSS */
 
 body{
@@ -97,4 +98,105 @@ h3{
         margin-top:0px;
         margin-bottom:0px;
     }
+=======
+/* Ce fichier contient les styles CSS */
+
+body{
+    margin:0;
+    padding:0;
+    
+    background-color: hsl(30, 54%, 90%);
+ 
+}
+
+fieldset{
+    background-color: hsl(0, 0%, 100%);
+    width:470px;
+    height:1500px;
+    border-radius:15px;
+    border:none;
+    margin:auto;
+    margin-top:80px;
+    margin-bottom:60px;
+}
+
+fieldset img{
+    width:450px;
+    height:150px;
+    padding:15px 10px 15px 10px;
+    border-radius:20px;
+}
+
+h1{
+    font-family:'Young serif',serif;
+}
+
+p{
+    font-size:14px;
+    font-family:'Outfit',sans-serif;
+    font-weight:600;
+    text-align: justify;
+}
+
+.preparation h4 {
+    color:hsl(332, 51%, 32%);
+    font-family:'Arial',sans-serif;
+    position:relative;
+    margin-left:20px;
+    top:10px;
+}
+
+
+
+.preparation{
+    background-color:hsl(330, 100%, 98%);
+    height:130px;
+
+}
+
+.prepa{
+    color:hsl(14, 45%, 36%);
+    font-family: Arial,sans-serif;
+    font-weight:800;
+    position:relative;
+    left:25px;
+}
+
+h3{
+    color:hsl(14, 45%, 36%);
+    font-family:'Young serif',serif;
+
+}
+
+.ing{
+    color:hsl(14, 45%, 36%);
+    font-weight:800;
+    font-size: 14px;
+
+}
+
+.i{
+    font-family:'Outfit',sans-serif;
+    font-size:14px;
+    
+}
+
+.ins{
+    color:hsl(14, 45%, 36%);
+    font-weight:900;
+    font-family:'Arial',sans-serif;
+    font-size:12px;
+}
+
+
+
+/* Gérer le responsive design */
+@media screen and (max-width:500px){
+
+    fieldset{
+        margin:0px;
+        margin-top:0px;
+        margin-bottom:0px;
+    }
+>>>>>>> 1b39c0d8d4fd4ebf499b7d409d18e453bbf49ec4
 }
